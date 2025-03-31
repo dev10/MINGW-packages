@@ -4,7 +4,7 @@ _realname=qt6-multimedia
 pkgbase=mingw-w64-${_realname}
 pkgname=("${MINGW_PACKAGE_PREFIX}-${_realname}"
          "${MINGW_PACKAGE_PREFIX}-${_realname}-debug"
-         "${MINGW_PACKAGE_PREFIX}-${_realname}-ffmpeg"
+         #"${MINGW_PACKAGE_PREFIX}-${_realname}-ffmpeg"
          "${MINGW_PACKAGE_PREFIX}-${_realname}-wmf")
 _qtver=6.8.3
 pkgver=${_qtver/-/}
